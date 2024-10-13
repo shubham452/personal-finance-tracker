@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { config } from "process";
 
-const BASE_URL = "http://localhost:5000/api/v1/";
+const BASE_URL = "https://personal-finance-tracker-api-ec61.onrender.com/api/v1/";
 
 const GlobalContext = createContext();
 
